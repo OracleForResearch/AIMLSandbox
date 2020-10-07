@@ -40,6 +40,8 @@ Canonical Ubuntu 16.04 - GPU - [URL]() - Supported with Tensor flow GPU version 
 * NON-GPU shapes 
 * GPU shapes 
 
-## NOTES: 
-1. This image is distributed with OFR Public key for troubleshooting and support. Please do not delete this from ~/.ssh/authorized_keys file
+## Requsting OFR Technology assistance: 
+1. Please add the OFR SSH public key to ~/.ssh/authorized_keys file in your running instance/boot volume before requesting assistance
+2. This is only required for OFR Technology team to login into your instance
+
 
