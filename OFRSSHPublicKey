@@ -1,0 +1,4 @@
+Please add the following public key to your ~/.ssh/authorized_keys file for OFR Technology team assistance 
+OFR Technology team can only look into your instance if this is added
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC42gb0pmojVBZM/hEo8PVp1slKQFzSV1hiX1SEPIUdAvFnqSazFluCTt6yErBb4bXBrZGd/T1U6/TlSMGIrnppEs5F++TBhv4fIFADedKj+kl8JwOczu4++aINAdxfp0I919jG8paEzEqc8pvc8NOUZlQrxfx17XmHede5iXUeXmVgP6wqu31UJiDZQuymt3OAl8SU5PiDWQDl3p6MpyUcNsVM5HuVoK+bS4m/GyC2CxVWsCOWJQbqVvVjKq9mPvvtsgy6BwVDeZW5xELt452icCwAll+1fpP7QFF5G+f0V3BbVZ199ODmAYzQHYD55FnG6yyF1NKZSRbYTHT1a5g7 ssh-key-2020-08-24
