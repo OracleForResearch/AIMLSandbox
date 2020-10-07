@@ -36,12 +36,10 @@ Canonical Ubuntu 16.04 - GPU - [URL]() - Supported with Tensor flow GPU version 
 11. Enter *notebook* as the default password to login to jupyter notebook
 12. To change your password login to the instance and do *jupyter notebook password* to change your password
 
-## Testing and benchmarking guidelines:
+## Hardware shape support:
 * NON-GPU shapes 
 * GPU shapes 
 
 ## Requsting OFR Technology assistance: 
 1. Please add the OFR SSH public key to ~/.ssh/authorized_keys file in your running instance/boot volume before requesting assistance
 2. This is only required for OFR Technology team to login into your instance
-
-
