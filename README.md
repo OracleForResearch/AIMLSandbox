@@ -4,7 +4,7 @@ Developed by Oracle for Research
 ## Goal 
 Provide researcher with 
 1. A sandbox environment to get researhers quickly up and running.
-2. Facilitate researchers to customize image easily as needed
+2. Researcher need separate CPU and GPU images
 
 ## Overview
 This repository includes 
