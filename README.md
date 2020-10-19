@@ -16,11 +16,11 @@ This repository includes
 1. [Installed software & versions](https://github.com/OracleForResearch/AIMLSandbox/blob/main/SoftwareAndVersion)
 
 ## Downloads
-Currently distributed from Oracle for Research object store
-[AI/ML Sandbox-OL7.8-CPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFCPU-OL78) - Supported with Tensor flow CPU version on all CPU shapes
-[AI/ML Sandbox-OL7.8-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-OL78) - Supported with Tensor flow GPU version on all GPU shapes
-[AI/ML Sandbox-Ubuntu16.04-CPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFCPU-Ubuntu18.04) - Supported with Tensor flow CPU version on all CPU shapes
-[AI/ML Sandbox-Ubuntu16.04-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-Ubuntu18.04) - Supported with Tensor flow GPU version on all GPU shapes
+Distributed from Oracle for Research object store
+1. [AI/ML Sandbox-OL7.8-CPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFCPU-OL78) - Supported with Tensor flow CPU version on all CPU shapes
+2. [AI/ML Sandbox-OL7.8-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-OL78) - Supported with Tensor flow GPU version on all GPU shapes
+3. [AI/ML Sandbox-Ubuntu16.04-CPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFCPU-Ubuntu18.04) - Supported with Tensor flow CPU version on all CPU shapes
+4. [AI/ML Sandbox-Ubuntu16.04-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-Ubuntu18.04) - Supported with Tensor flow GPU version on all GPU shapes
 
 ## Using the image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
