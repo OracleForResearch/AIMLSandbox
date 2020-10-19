@@ -13,8 +13,7 @@ This repository includes
 3. Slim reference install
 
 ## Software & Versions
-[Installed software & versions](https://github.com/OracleForResearch/AIMLSandbox/blob/main/SoftwareAndVersion)
-[Anaconda3-2020.07-Linux-x86_64](https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh)
+1. [Installed software & versions](https://github.com/OracleForResearch/AIMLSandbox/blob/main/SoftwareAndVersion)
 
 ## Downloads
 Currently distributed from Oracle for Research object store
