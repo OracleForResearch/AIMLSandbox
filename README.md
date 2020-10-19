@@ -1,20 +1,27 @@
 # AI / ML Sandbox
 Developed by Oracle for Research
 
+## Goal 
+Provide researcher with 
+1. A sandbox environment to get researhers quickly up and running.
+2. Facilitate researchers to customize image easily as needed
+
 ## Overview
 This repository includes 
-1. Base AI/ML images for creating an AI/ML sandbox instance for research
-2. The images comes in two Linux operating system and hardware shapes as outlined below
-3. The sandbox instances can be customized and extended for production computations
+1. Base AI/ML image for creating an AI/ML sandbox instance for researchers
+2. Available in CPU and GPU versions in Oracle Linux and Ubuntu platforms
+3. Slim reference install
 
 ## Software & Versions
+[Installed software & versions](https://github.com/OracleForResearch/AIMLSandbox/blob/main/SoftwareAndVersion)
 [Anaconda3-2020.07-Linux-x86_64](https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh)
 
-## Available OS and hardware distributions 
-Oracle Linux 7.8 - CPU - [URL]() - Supported with Tensor flow CPU version on all CPU shapes
-Oracle Linux 7.8 - GPU - [URL]() - Supported with Tensor flow GPU version on all GPU shapes
-Canonical Ubuntu 16.04 - CPU - [URL]() - Supported with Tensor flow CPU version on all CPU shapes
-Canonical Ubuntu 16.04 - GPU - [URL]() - Supported with Tensor flow GPU version on all GPU shapes
+## Downloads
+Currently distributed from Oracle for Research object store
+[AI/ML Sandbox-OL7.8-CPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFCPU-OL78) - Supported with Tensor flow CPU version on all CPU shapes
+[AI/ML Sandbox-OL7.8-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-OL78) - Supported with Tensor flow GPU version on all GPU shapes
+[AI/ML Sandbox-Ubuntu16.04-CPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFCPU-Ubuntu18.04) - Supported with Tensor flow CPU version on all CPU shapes
+[AI/ML Sandbox-Ubuntu16.04-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-Ubuntu18.04) - Supported with Tensor flow GPU version on all GPU shapes
 
 ## Using the image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
