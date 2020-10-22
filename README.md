@@ -1,4 +1,4 @@
-# AI / ML Sandbox
+# Image Sandbox
 Developed by Oracle for Research
 
 ## Goal 
