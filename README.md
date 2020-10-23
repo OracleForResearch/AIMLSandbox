@@ -27,7 +27,7 @@ Distributed from Oracle for Research object store
 #### Research Gateway 
 1. [Research Gateway OCI CLI](https://objectstorage.us-ashburn-1.oraclecloud.com/p/98pDM54dEywfQvlbS0HVbeeKSbYuLIUUjoi6yYCkqEakA2rhdeXbEzPV2ReU8Y6k/n/ideqbfsd51fu/b/OFRImages/o/Research-Gateway) - A research gateway image pre-installed with OCI CLI. It is recommended to use a free tier VM in a public subnet to host this VM
 
-## Using the image
+## Using the AI/ML Sandbox image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
 2. Click Import image and specify a custom image name
 3. Select "Import from an object storage URL" and paste the URL of the image as shown above
