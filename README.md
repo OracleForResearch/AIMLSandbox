@@ -4,13 +4,13 @@ Developed by Oracle for Research
 ## Goal 
 Provide researcher with 
 1. A sandbox environment to get researhers quickly up and running.
-2. Researcher need separate CPU and GPU images
+2. Researcher may need separate CPU and GPU images
 
 ## Overview
 This repository includes 
-1. Base AI/ML image for creating an AI/ML sandbox instance for researchers
-2. Available in CPU and GPU versions in Oracle Linux and Ubuntu platforms
-3. VM based slim installs
+1. Images that can be quickly imported by researchers.
+2. Images are developed and supported by Oracle for Research
+3. Images should be pulled down as a URL and imported as a custom image in your tenancy before usage
 
 ## Software & Versions
 2. [Included software versions](https://github.com/OracleForResearch/AIMLSandbox/blob/main/SoftwareAndVersion)
@@ -24,6 +24,8 @@ Distributed from Oracle for Research object store
 4. [AI/ML Sandbox-Ubuntu16.04-GPU](https://github.com/OracleForResearch/AIMLSandbox/blob/main/images/MLSandboxTFGPU-Ubuntu18.04) - Supported with Tensor flow GPU version on all GPU shapes
 #### Afni Sandbox
 1. [Afni-Ubuntu-20.04v1](https://objectstorage.us-ashburn-1.oraclecloud.com/p/Umjj9GfKkP3_vRvEDbc7wsh47MQAxwOdNh5C-If82m46vDXC1D3-0lDvLCVe4TGY/n/ideqbfsd51fu/b/OFRImages/o/AFNI-Ubuntu-20.04-v1)
+#### Research Gateway 
+1. [Research Gateway OCI CLI](https://objectstorage.us-ashburn-1.oraclecloud.com/p/98pDM54dEywfQvlbS0HVbeeKSbYuLIUUjoi6yYCkqEakA2rhdeXbEzPV2ReU8Y6k/n/ideqbfsd51fu/b/OFRImages/o/Research-Gateway) - A research gateway image pre-installed with OCI CLI. It is recommended to use a free tier VM in a public subnet to host this VM
 
 ## Using the image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
