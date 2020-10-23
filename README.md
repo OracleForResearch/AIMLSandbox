@@ -1,4 +1,4 @@
-# Image Sandbox
+# Research Image Sandbox
 Developed by Oracle for Research
 
 ## Goal 
