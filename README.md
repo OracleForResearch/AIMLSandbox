@@ -39,7 +39,9 @@ Distributed from Oracle for Research object store
   * For Oracle Linux - *SSH -i PrivateKey -i opc@PublicIP -L 8888:localhost:8888*
   * For ubuntu - *SSH -i PrivateKey ubuntu@PublicIP -L 8888:localhost:8888*
 9. Start Jupyter notebook 
-  * Quick start - *jupyter notebook --ip=0.0.0.0*
+  * Quick start - 
+    <pre><code>conda activate sandbox
+    jupyter notebook --ip=0.0.0.0</code></pre>
   * Secure start - Install a certificate for https communications from client browser
     * *openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout jupyter-key.key*
     * *jupyter notebook --certfile=jupyter-cert.pem --keyfile=jupyter-key.key*
