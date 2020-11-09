@@ -27,14 +27,19 @@ The Research gateway image provides a secure gateway to your researech tenancy.S
 
 ### Guidance and recommendations
 1. Build as a free-tier VM with default storage
-2. Build in a public subnet
-3. Generate a private / public key pair and copy / cut-paste into the VM for secure SSH to your private instances
-   * To quickly generate a public / private key pair - try spinning up a compute instance and download the public / private keys.
-   * Alternately use your own SSH key pair
-   * Please note that your compute instances in the private subnet must be built 
-2. Must be built in a public subnet in a VCN
-3. 
+2. Build the image instance in a public subnet
+3. Use one gateway VM per compartment or VCN
+4. To use a single gateway VMs across multiple project
+   * Build all your instances in the same private subnet (configured through standard architecture) - simplest
+   * Build project specific private subnets in the same VCN - simpler
+   * Use network security rules to build SSH access between gateway VM subnet and other private subnets
+5. Always SSH to private instances from Gateway instance
+6. Use your own private / public SSH key pair for added security
+7. Use the same API key (for multiple users) for simpler administration
 
-## Accessing your private compute instances 
+### Accessing your private compute instances 
 
-## Issues recording and resolution
+### Issues and resolution
+Please contact Oracle for Research via the following channels 
+1. OracleForResearchTech_ww@Oracle.com
+2. Oracle for research update calls
