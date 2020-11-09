@@ -20,8 +20,10 @@ The Research gateway image provides a secure gateway to your researech tenancy.S
    * Using NVIDIA monitoring tools with OCI-CLI (upcoming)
 
 ### Using the Image
-1. Create a compart 
-2. Spin up a compute instance using the newly created custom image
+1. Implement the Oracle for Research standard architecture
+   * Create a new compartment
+   * Implement a new VCN in the compartment through the VCN creation wizard
+2. Create a custom image in the compartment using the image 
 
 ### SSH to your private compute instance 
 
