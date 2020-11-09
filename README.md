@@ -36,8 +36,8 @@ Distributed from Oracle for Research object store
 6. Select "Create Instance" and select the custom image of your choice and create the instance on your desired OCI hardware shape
 7. You can use Oracle provided SSH key (download required) or put your own SSH keys to create the instance
 8. SSH to the instance
-  * For Oracle Linux - *SSH PrivateKey -i opc@PublicKey -L 8888:opc:8888*
-  * For ubuntu - *SSH PrivateKey -i ubuntu@PublicKey -L 8888:opc:8888*
+  * For Oracle Linux - *SSH PrivateKey -i opc@PublicIP -L 8888:opc:8888*
+  * For ubuntu - *SSH PrivateKey -i ubuntu@PublicIP -L 8888:opc:8888*
 9. Start Jupyter notebook 
   * Quick start - *jupyter notebook --ip=0.0.0.0*
   * Secure start - Install a certificate for https communications from client browser
