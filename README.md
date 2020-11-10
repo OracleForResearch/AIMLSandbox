@@ -3,14 +3,14 @@ Developed by Oracle for Research
 
 ## Goal 
 Provide researcher with 
-1. A sandbox environment to get researhers quickly up and running.
+1. Sandbox environments to get researhers quickly up and running.
 2. Researcher may need separate CPU and GPU images
 
 ## Overview
 This repository includes 
 1. Images that can be quickly imported by researchers.
 2. Images are developed and supported by Oracle for Research
-3. Images should be pulled down as a URL and imported as a custom image in your tenancy before usage
+3. A research gateway image that can be used as a SSH entry point to other researcher subnets
 
 ## Software & Versions
 2. [Included software versions](https://github.com/OracleForResearch/AIMLSandbox/blob/main/SoftwareAndVersion)
@@ -35,20 +35,23 @@ Distributed from Oracle for Research object store
 5. After successful import - proceed to create the image in a supported shape
 6. Select "Create Instance" and select the custom image of your choice and create the instance on your desired OCI hardware shape
 7. You can use Oracle provided SSH key (download required) or put your own SSH keys to create the instance
-8. Add a security list ingress rule with port 8888 to your subnet hosting the compute instance (To be detailed later)
-8. SSH to the instance
+8. Add a security list ingress rule with port 8888 to your subnet hosting the compute instance.
+![](images/ingress-2.png)
+The final rule should look like 
+![](images/ingress-1.png)
+9. SSH to the instance
   * For Oracle Linux - *SSH -i PrivateKey -i opc@PublicIP -L 8888:localhost:8888*
   * For ubuntu - *SSH -i PrivateKey ubuntu@PublicIP -L 8888:localhost:8888*
-9. Start Jupyter notebook 
+10. Start Jupyter notebook 
   * Quick start - 
     <pre><code>conda activate sandbox
     jupyter notebook --ip=0.0.0.0</code></pre>
   * Secure start - Install a certificate for https communications from client browser
     * *openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout jupyter-key.key*
     * *jupyter notebook --certfile=jupyter-cert.pem --keyfile=jupyter-key.key*
-10. Connect from browser - *http://localhost:8888*
-11. Enter *notebook* as the default password to login to jupyter notebook
-12. To change your password login to the instance and do *jupyter notebook password* to change your password
+11. Connect from browser - *http://localhost:8888*
+12. Enter *notebook* as the default password to login to jupyter notebook
+13. To change your password login to the instance and do *jupyter notebook password* to change your password
 
 ## Hardware shape support:
 * All OCI CPU shapes 
