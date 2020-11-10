@@ -36,7 +36,7 @@ Distributed from Oracle for Research object store
 6. Select "Create Instance" and select the custom image of your choice and create the instance on your desired OCI hardware shape
 7. You can use Oracle provided SSH key (download required) or put your own SSH keys to create the instance
 8. Add a security list ingress rule with port 8888 to your subnet hosting the compute instance.
-![](images/ingress-2.png)
+![](images/Ingress-2.png)
 The final rule should look like 
 ![](images/ingress-1.png)
 9. SSH to the instance
