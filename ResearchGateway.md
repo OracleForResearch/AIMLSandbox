@@ -2,30 +2,39 @@
 
 ### Overview
 The Research gateway image provides a secure gateway to your researech tenancy.Some of the other usages are described below.
-1. Secure gateway: Provides a secure gateway with simple deployment. Protects other compute / databases by acting as a gateway.
-2. Build: Should be built in a public facing subnet (default)
-3. Architecture: One-click compute instance creation on OFR standard architecture
-4. OCI-CLI: Comes with pre-installed version of OCI Command line interface (CLI) Tools
+1. Secure gateway: Provides a secure gateway with A simple deployment. Prevents direct access to your private compute cluster and databases. 
+2. Build: Should be built in a public subnet (default)
+3. Architecture: Recommended to create on Oracle for Research standard architecture
+4. OCI-CLI: Pre-installed version of OCI Command line interface (CLI) Tools
 5. Configurable: Easily configurable to your tenancy environment
-6. Operating system: Currently available as a SSH gatway on Linux operating systems
+6. Operating system: Oracle Linux operating systems
 
 ### Tools and scripts 
 1. Following scripts are included with the image
-   * OCI-CLI (Command line scripts - installed and pre-configured with a README file)
-   * Terminating and startup scripts
+   * OCI-CLI object list scripts (list compartment, instances, images)
+   * Instance Terminating and startup scripts
    * Block storage attachment and detachment
    * SSH to login to VM in your private subnet
-   * Standard Linux monitoring examples
+   * Standard Linux monitoring examples (upcoming)
    * Using OCI Telemetry monitoring with OCI-CLI (upcoming)
    * Using NVIDIA monitoring tools with OCI-CLI (upcoming)
 
-### Using the Image
+### Downloading and using the Image
 1. Implement the Oracle for Research standard architecture
    * Create a new compartment
    * Implement a new VCN in the compartment through the VCN creation wizard
-2. Create a custom image in the compartment using the image 
+2. Import and create a custom image from the [Oracle for Research URL]()
+3. Create a free-tier compute instance with the custom image in the public subnet
+   * Please generate SSH key (easier if you are starting out) or use your own keys while building the instance.
 
-### SSH to your private compute instance 
+### Configuring OCI CLI
+OCI CLI needs some configuration to successfully work with your tenancy and the user working with it. Please follow the steps below.
+1. Login to your OCI tenancy console
+2. Get the Tenancy OCID
+3. Get the user OCID
+4. Setup the API Public key
+   * SSH to Research Gateway VM
+   * Go to ~/.oci
 
 ### Guidance and recommendations
 1. Build as a free-tier VM with default storage
