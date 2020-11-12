@@ -30,11 +30,23 @@ The Research gateway image provides a secure gateway to your researech tenancy.S
 ### Configuring OCI CLI
 OCI CLI needs some configuration to successfully work with your tenancy and the user working with it. Please follow the steps below.
 1. Login to your OCI tenancy console
-2. Get the Tenancy OCID
-3. Get the user OCID
+2. Get the Tenancy OCID - profile --> Tenancy (Top right corner of your console) and copy the OCID. This is your tenancy OCID
+3. Get the user OCID - profile --> User Settngs and copy the OCID. This is your user OCID
 4. Setup the API Public key
    * SSH to Research Gateway VM
-   * Go to ~/.oci
+   * vi ~/.oci/oci_api_key_public.pem
+   * copy the contents of the file in your clipboard or notepad
+   * Click on profile --> User Settngs (Top right corner of your console)
+   * Navigate to API Keys 
+   * Create an API key with the public key you copied
+   * Copy the fingerprint
+5. Setup your OCID and Tenancy Configuration
+   * SSH to Research Gateway VM
+   * vi ~/.oci/config
+   * Update the user OCID, tenancy OCID and the region (mostly should be us-ashburn-1 unless you are allocated another OCI region)
+   * Update the API fingerprint you copied from console
+ 6. Test with the following code 
+ <pre><code>oci os ns get</code></pre>
 
 ### Guidance and recommendations
 1. Build as a free-tier VM with default storage
