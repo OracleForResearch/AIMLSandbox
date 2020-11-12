@@ -25,7 +25,7 @@ Distributed from Oracle for Research object store
 #### Afni Sandbox
 1. [Afni-Ubuntu-20.04v1](https://objectstorage.us-ashburn-1.oraclecloud.com/p/Umjj9GfKkP3_vRvEDbc7wsh47MQAxwOdNh5C-If82m46vDXC1D3-0lDvLCVe4TGY/n/ideqbfsd51fu/b/OFRImages/o/AFNI-Ubuntu-20.04-v1)
 #### Research Gateway 
-1. [Research Gateway OCI CLI](https://objectstorage.us-ashburn-1.oraclecloud.com/p/98pDM54dEywfQvlbS0HVbeeKSbYuLIUUjoi6yYCkqEakA2rhdeXbEzPV2ReU8Y6k/n/ideqbfsd51fu/b/OFRImages/o/Research-Gateway) - A research gateway image pre-installed with OCI CLI. It is recommended to use a free tier VM in a public subnet to host this VM
+1. [Research Gateway OCI CLI](https://github.com/OracleForResearch/Research-Image-Sandbox/blob/main/ResearchGateway.md) - A research gateway image pre-installed with OCI CLI. It is recommended to use a free tier VM in a public subnet to host this VM
 
 ## Using the AI/ML Sandbox image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
