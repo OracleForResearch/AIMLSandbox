@@ -31,6 +31,7 @@ The Research gateway image provides a secure gateway to your researech tenancy.S
    * Please generate SSH key (easier if you are starting out) or use your own keys while building the instance.
 
 ### Configuring OCI CLI
+![](images/OCICLI-3.png)
 OCI CLI needs some configuration to successfully work with your tenancy and the user working with it. Please follow the steps below.
 1. Login to your OCI tenancy console
 2. Get the Tenancy OCID - profile --> Tenancy (Top right corner of your console) and copy the OCID. This is your tenancy OCID
@@ -50,6 +51,9 @@ OCI CLI needs some configuration to successfully work with your tenancy and the 
    * Update the API fingerprint you copied from console
  6. Test with the following code 
  <pre><code>oci os ns get</code></pre>
+
+### OCI CLI workflows 
+![](images/OCICLI-4.png)
 
 ### Guidance and recommendations
 1. Build as a free-tier VM with default storage
@@ -78,7 +82,7 @@ Scripts are present in /home/opc/scripts directory
 10. blockvol.sh                   --> Block volume attachment and detachment
 
 ### OCI CLI vs OCI Console usage
-
+![](images/OCICLI-5.png)
 
 ### Issues and resolution
 Please contact Oracle for Research via the following channels 
