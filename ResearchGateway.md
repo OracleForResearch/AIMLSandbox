@@ -1,4 +1,4 @@
-## Using the Research Gatway Image
+## The Research Gatway Image
 
 ### Overview
 The Research gateway image provides a secure gateway to your researech tenancy.Some of the other usages are described below.
