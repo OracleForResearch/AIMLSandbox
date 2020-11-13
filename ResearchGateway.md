@@ -20,13 +20,13 @@ The Research gateway image provides a secure gateway to your researech tenancy.S
    * Using NVIDIA monitoring tools with OCI-CLI (upcoming)
 
 ### Research-Gateway Image 
-1. [URL]()
+1. [Image URL](https://objectstorage.us-ashburn-1.oraclecloud.com/p/vaNoRJwq_U4rAguI5J8kHcnkzbVpYlBj9u9IOTMDakbldJBoGasOqe_voUqD4dr-/n/ideqbfsd51fu/b/OFRImages/o/Research-Gateway)
 
 ### Downloading and using the Image
 1. Implement the Oracle for Research standard architecture
    * Create a new compartment
    * Implement a new VCN in the compartment through the VCN creation wizard
-2. Import and create a custom image from the [Oracle for Research URL]()
+2. Import and create a custom image from the [Research-Gateway Image URL](https://objectstorage.us-ashburn-1.oraclecloud.com/p/vaNoRJwq_U4rAguI5J8kHcnkzbVpYlBj9u9IOTMDakbldJBoGasOqe_voUqD4dr-/n/ideqbfsd51fu/b/OFRImages/o/Research-Gateway)
 3. Create a free-tier compute instance with the custom image in the public subnet
    * Please generate SSH key (easier if you are starting out) or use your own keys while building the instance.
 
@@ -76,6 +76,9 @@ Scripts are present in /home/opc/scripts directory
 8. terminate_pool.sh             --> Terminates an instance pool (compute cluster) based on a running instance pool
 9 ssh_vm.sh                     --> SSH to a VM on a private subnet. (private key on Research Gateway required) - In development
 10. blockvol.sh                   --> Block volume attachment and detachment
+
+### OCI CLI vs OCI Console usage
+
 
 ### Issues and resolution
 Please contact Oracle for Research via the following channels 
