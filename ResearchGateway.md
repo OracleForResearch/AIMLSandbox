@@ -19,6 +19,9 @@ The Research gateway image provides a secure gateway to your researech tenancy.S
    * Using OCI Telemetry monitoring with OCI-CLI (upcoming)
    * Using NVIDIA monitoring tools with OCI-CLI (upcoming)
 
+### Research-Gateway Image 
+1. [URL]()
+
 ### Downloading and using the Image
 1. Implement the Oracle for Research standard architecture
    * Create a new compartment
@@ -60,7 +63,19 @@ OCI CLI needs some configuration to successfully work with your tenancy and the 
 6. Use your own private / public SSH key pair for added security
 7. Use the same API key (for multiple users) for simpler administration
 
-### Accessing your private compute instances 
+### Included scripts
+
+Scripts are present in /home/opc/scripts directory
+1. get_all_comp.sh               --> gets all the compartment for a tenancy (multi-tenancy support)
+2. get_all_instances.sh          --> gets all the running instances with OCID by compartment for a tenancy for easy termination (multi-tenancy support)
+3. get_all_images.sh             --> gets all the images OCIDs in a file for the compartment
+4. create_json.sh                --> creates the full json input file for OCI CLI Command
+5. launch_vm.sh                  --> Launches a compute instance based on input json
+6. terminate_vm.sh               --> Terminates a compute instance based on instance name. (works over OCID changes across multiple terminations)
+7. launch_pool.sh                --> Launches an instance pool (compute cluster) based on an instance configuration
+8. terminate_pool.sh             --> Terminates an instance pool (compute cluster) based on a running instance pool
+9 ssh_vm.sh                     --> SSH to a VM on a private subnet. (private key on Research Gateway required) - In development
+10. blockvol.sh                   --> Block volume attachment and detachment
 
 ### Issues and resolution
 Please contact Oracle for Research via the following channels 
