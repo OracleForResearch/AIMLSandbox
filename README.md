@@ -38,8 +38,8 @@ Molecular dynamics (MD) is a computer simulation method for analyzing the physic
 
 NAMD and GROMACS are two poular molecular dynamics packages that is currently supported by OCI HPC platform. Researchers also other packages for MD simulations as well and hence these initial installation vresions of LAMMPS and AmberTools are developed.
 
-1. [LAMMPS-Ubuntu16.04](https://objectstorage.us-ashburn-1.oraclecloud.com/p/ENPIpr0OII2io7_qo6ZQVOpqtyVzZbJHx07DDnnBDbFJ5JTRuaDhCIk9MOC7SalE/n/ideqbfsd51fu/b/OFRImages/o/LAMMPS-Ubuntu16.04-v1) - Deploy LAMMPS on Ubuntu
-2. [AmberTools-Ubuntu18.04](https://objectstorage.us-ashburn-1.oraclecloud.com/p/l2kdstu2_ZYw7xkFTXwNVWFEPNSkLn1ZvRcZpA6k_NLAQpfrM8pZ1x-MWja7HcZV/n/ideqbfsd51fu/b/OFRImages/o/AmberTools-Ubuntu-18.04-v1) - Deploy AmberTools on Ubuntu
+1. [LAMMPS-Ubuntu16.04](https://objectstorage.us-ashburn-1.oraclecloud.com/p/fYbhNUaZHHAh1u27a69uDstH-roANMh1-mT4g9B6tYCOs86g9rpdngNuf_E67MQP/n/ideqbfsd51fu/b/OFRImages/o/LAMMPS-Ubuntu16.04-v1) - Deploy LAMMPS on Ubuntu
+2. [AmberTools-Ubuntu18.04](https://objectstorage.us-ashburn-1.oraclecloud.com/p/VFpGUtuy3gMxQU34xWykn2ZymxTWI2y6kijM-T7utaGtCJIICSU_fgMeSUyZmHx_/n/ideqbfsd51fu/b/OFRImages/o/AmberTools-Ubuntu-18.04-v1) - Deploy AmberTools on Ubuntu
 
 ## Using the AI/ML Sandbox image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
