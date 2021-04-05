@@ -28,18 +28,13 @@ The AI/ML Sandbox images are specifically developed in addition to OCI All-in-on
 #### Afni Sandbox
 Analysis of Functional NeuroImages (AFNI) is an open-source environment for processing and displaying functional MRI data—a technique for mapping human brain activity. AFNI is an agglomeration of programs that can be used interactively or flexibly assembled for batch processing using shell script.
 
-1. [Afni-Ubuntu-20.04v1](https://objectstorage.us-ashburn-1.oraclecloud.com/p/Umjj9GfKkP3_vRvEDbc7wsh47MQAxwOdNh5C-If82m46vDXC1D3-0lDvLCVe4TGY/n/ideqbfsd51fu/b/OFRImages/o/AFNI-Ubuntu-20.04-v1)
-
 #### Research Gateway 
 1. [Research Gateway OCI CLI](https://github.com/OracleForResearch/Research-Image-Sandbox/blob/main/ResearchGateway.md) - A research gateway image pre-installed with OCI CLI. It is recommended to use a free tier VM in a public subnet to host this VM
 
 #### Molecular Dynamics
 Molecular dynamics (MD) is a computer simulation method for analyzing the physical movements of atoms and molecules. The atoms and molecules are allowed to interact for a fixed period of time, giving a view of the dynamic "evolution" of the system.MD was originally developed in the early 1950s, following the earlier successes with Monte Carlo simulations, which themselves date back to the eighteenth century. 
 
-NAMD and GROMACS are two poular molecular dynamics packages that is currently supported by OCI HPC platform. Researchers also other packages for MD simulations as well and hence these initial installation vresions of LAMMPS and AmberTools are developed.
-
-1. [LAMMPS-Ubuntu16.04](https://objectstorage.us-ashburn-1.oraclecloud.com/p/fYbhNUaZHHAh1u27a69uDstH-roANMh1-mT4g9B6tYCOs86g9rpdngNuf_E67MQP/n/ideqbfsd51fu/b/OFRImages/o/LAMMPS-Ubuntu16.04-v1) - Deploy LAMMPS on Ubuntu
-2. [AmberTools-Ubuntu18.04](https://objectstorage.us-ashburn-1.oraclecloud.com/p/VFpGUtuy3gMxQU34xWykn2ZymxTWI2y6kijM-T7utaGtCJIICSU_fgMeSUyZmHx_/n/ideqbfsd51fu/b/OFRImages/o/AmberTools-Ubuntu-18.04-v1) - Deploy AmberTools on Ubuntu
+NAMD and GROMACS are two poular molecular dynamics packages that is currently supported by OCI HPC platform. Researchers also other packages for MD simulations as well and hence these initial installation versions of LAMMPS and AmberTools are developed.
 
 ## Using the AI/ML Sandbox image
 1. Login to your Oracle cloud tenancy and navigate to Compute --> Custom Images
